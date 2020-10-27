@@ -1,0 +1,10 @@
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\Happy Tech Gui Main.exe.config
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\Happy Tech Gui Main.exe
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\Happy Tech Gui Main.pdb
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.csprojAssemblyReference.cache
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy_Tech_Gui_Main.Form1.resources
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy_Tech_Gui_Main.Properties.Resources.resources
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.csproj.GenerateResource.cache
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.csproj.CoreCompileInputs.cache
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.exe
+C:\Users\niewu\Documents\uni 2020\GIT\Software-Engineering\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.pdb
