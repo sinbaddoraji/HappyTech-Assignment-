@@ -61,6 +61,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Applicant.cs" />
+    <Compile Include="Feedback.cs" />
+    <Compile Include="Template.cs" />
+    <Compile Include="TemplateModel.cs" />
+    <Compile Include="User.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
