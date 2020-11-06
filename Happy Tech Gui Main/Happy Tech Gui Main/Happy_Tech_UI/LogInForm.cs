@@ -35,7 +35,7 @@ namespace Happy_Tech_UI
                 sda.Fill(dt);
                 if (dt.Rows[0][0].ToString() == "1")
                 {
-                    /* I have made a new page called home page. If the user is successfully authenticated then the form will be moved to the next form */
+                    /* If user exist it will hide this form and display the Feedback Form */
                     this.Hide();
                     new FeedbackForm().Show();
                 }
