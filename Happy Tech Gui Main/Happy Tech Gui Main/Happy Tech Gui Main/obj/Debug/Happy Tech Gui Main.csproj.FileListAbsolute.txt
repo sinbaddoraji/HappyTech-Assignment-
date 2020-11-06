@@ -19,6 +19,7 @@ C:\Users\Nikita Dalela\Desktop\HappyTech-Assignment--main (1)\HappyTech-Assignme
 C:\Users\Nikita Dalela\Desktop\HappyTech-Assignment--main (1)\HappyTech-Assignment--main\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.csproj.CoreCompileInputs.cache
 C:\Users\Nikita Dalela\Desktop\HappyTech-Assignment--main (1)\HappyTech-Assignment--main\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.exe
 C:\Users\Nikita Dalela\Desktop\HappyTech-Assignment--main (1)\HappyTech-Assignment--main\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.pdb
+<<<<<<< Updated upstream
 H:\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\HappyTech_Database.mdf
 H:\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\HappyTech_Database_log.ldf
 H:\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\Happy Tech Gui Main.exe.config
@@ -30,3 +31,16 @@ H:\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui 
 H:\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.csproj.CoreCompileInputs.cache
 H:\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.exe
 H:\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.pdb
+=======
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\HappyTech_Database.mdf
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\HappyTech_Database_log.ldf
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\Happy Tech Gui Main.exe.config
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\Happy Tech Gui Main.exe
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\bin\Debug\Happy Tech Gui Main.pdb
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.csprojAssemblyReference.cache
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy_Tech_Gui_Main.Properties.Resources.resources
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.csproj.GenerateResource.cache
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.csproj.CoreCompileInputs.cache
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.exe
+C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy Tech Gui Main\obj\Debug\Happy Tech Gui Main.pdb
+>>>>>>> Stashed changes

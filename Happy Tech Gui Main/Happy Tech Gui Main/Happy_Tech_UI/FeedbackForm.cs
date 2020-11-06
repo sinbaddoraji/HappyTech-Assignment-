@@ -16,5 +16,24 @@ namespace Happy_Tech_UI
         {
             InitializeComponent();
         }
+
+        private void EntrName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            
+
+        }
+
+        public void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked == true)
+            {
+                textBox1.Text = " Suc";
+            }
+        }
     }
 }

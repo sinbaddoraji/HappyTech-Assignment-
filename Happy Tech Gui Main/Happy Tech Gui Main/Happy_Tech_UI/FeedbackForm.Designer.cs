@@ -45,38 +45,34 @@
             // 
             // RecipientOfFeedback
             // 
-            this.RecipientOfFeedback.Location = new System.Drawing.Point(42, 132);
-            this.RecipientOfFeedback.Margin = new System.Windows.Forms.Padding(4);
+            this.RecipientOfFeedback.Location = new System.Drawing.Point(32, 107);
             this.RecipientOfFeedback.Name = "RecipientOfFeedback";
-            this.RecipientOfFeedback.Size = new System.Drawing.Size(158, 22);
+            this.RecipientOfFeedback.Size = new System.Drawing.Size(120, 20);
             this.RecipientOfFeedback.TabIndex = 17;
             this.RecipientOfFeedback.Text = "FeedbackRecipient";
             // 
             // EntrName
             // 
-            this.EntrName.Location = new System.Drawing.Point(42, 102);
-            this.EntrName.Margin = new System.Windows.Forms.Padding(4);
+            this.EntrName.Location = new System.Drawing.Point(32, 83);
             this.EntrName.Name = "EntrName";
-            this.EntrName.Size = new System.Drawing.Size(158, 22);
+            this.EntrName.Size = new System.Drawing.Size(120, 20);
             this.EntrName.TabIndex = 16;
             this.EntrName.Text = "YourName";
+            this.EntrName.TextChanged += new System.EventHandler(this.EntrName_TextChanged);
             // 
             // Templates
             // 
             this.Templates.FormattingEnabled = true;
-            this.Templates.ItemHeight = 16;
-            this.Templates.Location = new System.Drawing.Point(42, 270);
-            this.Templates.Margin = new System.Windows.Forms.Padding(4);
+            this.Templates.Location = new System.Drawing.Point(32, 219);
             this.Templates.Name = "Templates";
-            this.Templates.Size = new System.Drawing.Size(158, 100);
+            this.Templates.Size = new System.Drawing.Size(120, 82);
             this.Templates.TabIndex = 15;
             // 
             // SendFeedback
             // 
-            this.SendFeedback.Location = new System.Drawing.Point(437, 474);
-            this.SendFeedback.Margin = new System.Windows.Forms.Padding(4);
+            this.SendFeedback.Location = new System.Drawing.Point(328, 385);
             this.SendFeedback.Name = "SendFeedback";
-            this.SendFeedback.Size = new System.Drawing.Size(100, 28);
+            this.SendFeedback.Size = new System.Drawing.Size(75, 23);
             this.SendFeedback.TabIndex = 14;
             this.SendFeedback.Text = "Send Email";
             this.SendFeedback.UseVisualStyleBackColor = true;
@@ -84,20 +80,17 @@
             // ShortcutCheckbox
             // 
             this.ShortcutCheckbox.FormattingEnabled = true;
-            this.ShortcutCheckbox.Location = new System.Drawing.Point(777, 102);
-            this.ShortcutCheckbox.Margin = new System.Windows.Forms.Padding(4);
+            this.ShortcutCheckbox.Location = new System.Drawing.Point(583, 83);
             this.ShortcutCheckbox.Name = "ShortcutCheckbox";
-            this.ShortcutCheckbox.Size = new System.Drawing.Size(158, 106);
+            this.ShortcutCheckbox.Size = new System.Drawing.Size(120, 79);
             this.ShortcutCheckbox.TabIndex = 19;
             // 
             // FeedbackTopic
             // 
             this.FeedbackTopic.FormattingEnabled = true;
-            this.FeedbackTopic.ItemHeight = 16;
-            this.FeedbackTopic.Location = new System.Drawing.Point(42, 162);
-            this.FeedbackTopic.Margin = new System.Windows.Forms.Padding(4);
+            this.FeedbackTopic.Location = new System.Drawing.Point(32, 132);
             this.FeedbackTopic.Name = "FeedbackTopic";
-            this.FeedbackTopic.Size = new System.Drawing.Size(158, 100);
+            this.FeedbackTopic.Size = new System.Drawing.Size(120, 82);
             this.FeedbackTopic.TabIndex = 18;
             // 
             // contextMenuStrip1
@@ -110,30 +103,32 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(385, 37);
+            this.label1.Location = new System.Drawing.Point(289, 30);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(194, 38);
+            this.label1.Size = new System.Drawing.Size(163, 31);
             this.label1.TabIndex = 23;
             this.label1.Text = "HappyTech";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(243, 101);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.textBox1.Location = new System.Drawing.Point(182, 82);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(498, 323);
+            this.textBox1.Size = new System.Drawing.Size(374, 263);
             this.textBox1.TabIndex = 22;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox2.Location = new System.Drawing.Point(42, 404);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.checkBox2.Location = new System.Drawing.Point(32, 328);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(182, 21);
+            this.checkBox2.Size = new System.Drawing.Size(141, 17);
             this.checkBox2.TabIndex = 21;
             this.checkBox2.Text = "UnsuccessfullApplication";
             this.checkBox2.UseVisualStyleBackColor = true;
@@ -142,19 +137,20 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox1.Location = new System.Drawing.Point(42, 377);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.checkBox1.Location = new System.Drawing.Point(32, 306);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(166, 21);
+            this.checkBox1.Size = new System.Drawing.Size(129, 17);
             this.checkBox1.TabIndex = 20;
             this.checkBox1.Text = "SuccessfullApplication";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
             // FeedbackForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(976, 539);
+            this.ClientSize = new System.Drawing.Size(732, 438);
             this.Controls.Add(this.RecipientOfFeedback);
             this.Controls.Add(this.EntrName);
             this.Controls.Add(this.Templates);
@@ -165,6 +161,7 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.checkBox2);
             this.Controls.Add(this.checkBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FeedbackForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
