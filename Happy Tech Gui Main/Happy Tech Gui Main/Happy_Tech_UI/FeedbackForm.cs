@@ -23,18 +23,32 @@ namespace Happy_Tech_UI
         }
         public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked == true)
-            {
-                textBox1.Text = " Successful";
-            }
-        }
-
-        public void checkBox1_CheckedChanged(object sender, EventArgs e)
-        {
             
 
         }
 
-       
+        public void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked == true)
+            {
+                textBox1.Text = "Congratulation your application was Successful ";
+                textBox1.Refresh();
+            }
+
+        }
+
+        private void checkBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox2.Checked == true)
+            {
+                textBox1.Text = "Sorry your application was Unsuccessful ";
+                textBox1.Refresh();
+            }
+        }
+
+        private void Templates_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
