@@ -1,6 +1,11 @@
 Nikita
-	1. Start adding classes and attributes: 
-	2. Start programming the Form
+	1. Start adding classes and attributes: Done
+	2. Log-In Form UI: Done
+	3. Program Feedback Topic: 
+	4. Program Send Email Button:
+	5. Program: Shortcut CheckBox:
+	
+	
 Israel
 	1.Login form 
 Wiktor
