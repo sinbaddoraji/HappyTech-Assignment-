@@ -5,7 +5,6 @@ Nikita
 	4. Program Send Email Button:
 	5. Program: Shortcut CheckBox:
 	
-	
 Israel
 	1.Login form 
 Wiktor
