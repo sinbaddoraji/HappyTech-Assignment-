@@ -9,3 +9,13 @@ C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy 
 C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.csproj.CoreCompileInputs.cache
 C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.exe
 C:\Users\niewu\Documents\GitHub\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.pdb
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\bin\Debug\Happy_Tech_UI.exe.config
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\bin\Debug\Happy_Tech_UI.exe
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\bin\Debug\Happy_Tech_UI.pdb
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.csprojAssemblyReference.cache
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.FeedbackForm.resources
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.LogInForm.resources
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.Properties.Resources.resources
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.csproj.GenerateResource.cache
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.exe
+C:\Users\Gabriel\Desktop\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.pdb

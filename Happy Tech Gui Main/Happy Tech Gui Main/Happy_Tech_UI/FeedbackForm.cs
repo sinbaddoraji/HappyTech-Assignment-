@@ -50,5 +50,10 @@ namespace Happy_Tech_UI
         {
 
         }
+
+        private void FeedbackForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

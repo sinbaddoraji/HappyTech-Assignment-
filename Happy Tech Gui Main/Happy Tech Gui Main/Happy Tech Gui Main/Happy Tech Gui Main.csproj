@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Applicant.cs" />
+    <Compile Include="Classes\DBconn.cs" />
     <Compile Include="Classes\Feedback.cs" />
     <Compile Include="Classes\Template.cs" />
     <Compile Include="Classes\TemplateModel.cs" />
