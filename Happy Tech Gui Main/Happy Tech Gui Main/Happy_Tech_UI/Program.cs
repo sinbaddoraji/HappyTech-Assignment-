@@ -16,7 +16,7 @@ namespace Happy_Tech_UI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LogInForm());
+            Application.Run(new FeedbackForm());
         }
     }
 }

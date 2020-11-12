@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.RecipientOfFeedback = new System.Windows.Forms.TextBox();
             this.EntrName = new System.Windows.Forms.TextBox();
-            this.Templates = new System.Windows.Forms.ListBox();
             this.SendFeedback = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.ShortcutCheckbox = new System.Windows.Forms.CheckedListBox();
@@ -41,6 +40,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // RecipientOfFeedback
@@ -59,15 +61,6 @@
             this.EntrName.TabIndex = 16;
             this.EntrName.Text = "Interviewer";
             this.EntrName.TextChanged += new System.EventHandler(this.EntrName_TextChanged);
-            // 
-            // Templates
-            // 
-            this.Templates.FormattingEnabled = true;
-            this.Templates.Location = new System.Drawing.Point(32, 219);
-            this.Templates.Name = "Templates";
-            this.Templates.Size = new System.Drawing.Size(120, 82);
-            this.Templates.TabIndex = 15;
-            this.Templates.SelectedIndexChanged += new System.EventHandler(this.Templates_SelectedIndexChanged);
             // 
             // SendFeedback
             // 
@@ -118,7 +111,7 @@
             this.textBox1.Margin = new System.Windows.Forms.Padding(2);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(374, 263);
+            this.textBox1.Size = new System.Drawing.Size(374, 279);
             this.textBox1.TabIndex = 22;
             this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -126,7 +119,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox2.Location = new System.Drawing.Point(32, 328);
+            this.checkBox2.Location = new System.Drawing.Point(32, 240);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(141, 17);
@@ -139,7 +132,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.checkBox1.Location = new System.Drawing.Point(32, 306);
+            this.checkBox1.Location = new System.Drawing.Point(32, 219);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(129, 17);
@@ -148,14 +141,34 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(32, 282);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(120, 79);
+            this.checkedListBox1.TabIndex = 24;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(29, 266);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(123, 13);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Staff Template Selection";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
             // FeedbackForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(732, 438);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.RecipientOfFeedback);
             this.Controls.Add(this.EntrName);
-            this.Controls.Add(this.Templates);
             this.Controls.Add(this.SendFeedback);
             this.Controls.Add(this.ShortcutCheckbox);
             this.Controls.Add(this.FeedbackTopic);
@@ -177,7 +190,6 @@
 
         private System.Windows.Forms.TextBox RecipientOfFeedback;
         private System.Windows.Forms.TextBox EntrName;
-        private System.Windows.Forms.ListBox Templates;
         private System.Windows.Forms.Button SendFeedback;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.CheckedListBox ShortcutCheckbox;
@@ -187,6 +199,9 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.ComponentModel.BackgroundWorker backgroundWorker2;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label2;
     }
 }
 
