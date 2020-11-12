@@ -2,8 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -12,6 +14,7 @@ namespace Happy_Tech_UI
 {
     public partial class FeedbackForm : Form
     {
+        
         public FeedbackForm()
         {
             InitializeComponent();
@@ -31,8 +34,8 @@ namespace Happy_Tech_UI
         {
             if (checkBox1.Checked == true)
             {
-                textBox1.Text = "Congratulation your application was Successful ";
-                textBox1.Refresh();
+                FeedbackText.Text = "Congratulation your application was Successful ";
+                FeedbackText.Refresh();
             }
 
         }
@@ -41,8 +44,8 @@ namespace Happy_Tech_UI
         {
             if (checkBox2.Checked == true)
             {
-                textBox1.Text = "Sorry your application was Unsuccessful ";
-                textBox1.Refresh();
+                FeedbackText.Text = "Sorry your application was Unsuccessful ";
+                FeedbackText.Refresh();
             }
         }
 
@@ -55,5 +58,23 @@ namespace Happy_Tech_UI
         {
 
         }
+
+        private void SendFeedback_Click(object sender, EventArgs e)
+        {
+            SqlConnection con = new SqlConnection(@"Data Source=USER; Initial Catalog=admin; Integrated Security=True"); // making connection 
+            con.Open();
+            SqlCommand cmd = new SqlCommand("insert into Feedback(Applicant_ID, User_ID, Feedback_Header, Comments) values ('" + RecipientOfFeedback.Text + "', '" + Interviewer.Text + "', '" + FeedbackTopic.Text + "', '" + FeedbackText.Text + "')", con); //inserting feedback-form values to the database
+
+            //if some value is added (not equal to zero), then shows 'Email Send' and sends email
+            int i = cmd.ExecuteNonQuery();
+            if (i!=0)
+            {
+                MessageBox.Show("Email Sent");
+            }
+            else
+            {
+                MessageBox.Show("Please complete the form");
+            }
     }
+
 }
