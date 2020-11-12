@@ -57,7 +57,7 @@
             this.EntrName.Name = "EntrName";
             this.EntrName.Size = new System.Drawing.Size(120, 20);
             this.EntrName.TabIndex = 16;
-            this.EntrName.Text = "YourName";
+            this.EntrName.Text = "Interviewer";
             this.EntrName.TextChanged += new System.EventHandler(this.EntrName_TextChanged);
             // 
             // Templates
@@ -167,6 +167,7 @@
             this.Name = "FeedbackForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FeedbackForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
