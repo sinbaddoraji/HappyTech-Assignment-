@@ -14,7 +14,7 @@ namespace Happy_Tech_UI
 {
     public partial class FeedbackForm : Form
     {
-        
+
         public FeedbackForm()
         {
             InitializeComponent();
@@ -26,7 +26,7 @@ namespace Happy_Tech_UI
         }
         public void textBox1_TextChanged(object sender, EventArgs e)
         {
-            
+
 
         }
 
@@ -67,7 +67,7 @@ namespace Happy_Tech_UI
 
             //if some value is added (not equal to zero), then shows 'Email Send' and sends email
             int i = cmd.ExecuteNonQuery();
-            if (i!=0)
+            if (i != 0)
             {
                 MessageBox.Show("Email Sent");
             }
@@ -75,6 +75,7 @@ namespace Happy_Tech_UI
             {
                 MessageBox.Show("Please complete the form");
             }
-    }
+        }
 
+    }
 }
