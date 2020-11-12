@@ -35,12 +35,13 @@
             this.SendFeedback = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.ShortcutCheckbox = new System.Windows.Forms.CheckedListBox();
-            this.FeedbackTopic = new System.Windows.Forms.ListBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.FeedbackText = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.FeedbackTopic = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // RecipientOfFeedback
@@ -66,7 +67,7 @@
             // 
             this.Templates.FormattingEnabled = true;
             this.Templates.ItemHeight = 16;
-            this.Templates.Location = new System.Drawing.Point(43, 270);
+            this.Templates.Location = new System.Drawing.Point(43, 216);
             this.Templates.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Templates.Name = "Templates";
             this.Templates.Size = new System.Drawing.Size(159, 100);
@@ -93,16 +94,6 @@
             this.ShortcutCheckbox.Size = new System.Drawing.Size(159, 89);
             this.ShortcutCheckbox.TabIndex = 19;
             // 
-            // FeedbackTopic
-            // 
-            this.FeedbackTopic.FormattingEnabled = true;
-            this.FeedbackTopic.ItemHeight = 16;
-            this.FeedbackTopic.Location = new System.Drawing.Point(43, 162);
-            this.FeedbackTopic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.FeedbackTopic.Name = "FeedbackTopic";
-            this.FeedbackTopic.Size = new System.Drawing.Size(159, 100);
-            this.FeedbackTopic.TabIndex = 18;
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -113,20 +104,21 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(385, 37);
+            this.label1.Location = new System.Drawing.Point(389, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(194, 38);
             this.label1.TabIndex = 23;
             this.label1.Text = "HappyTech";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // FeedbackText
             // 
-            this.FeedbackText.Location = new System.Drawing.Point(243, 101);
+            this.FeedbackText.Location = new System.Drawing.Point(261, 152);
             this.FeedbackText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FeedbackText.Multiline = true;
             this.FeedbackText.Name = "FeedbackText";
-            this.FeedbackText.Size = new System.Drawing.Size(497, 323);
+            this.FeedbackText.Size = new System.Drawing.Size(497, 273);
             this.FeedbackText.TabIndex = 22;
             this.FeedbackText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -137,9 +129,9 @@
             this.checkBox2.Location = new System.Drawing.Point(43, 404);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(182, 21);
+            this.checkBox2.Size = new System.Drawing.Size(183, 21);
             this.checkBox2.TabIndex = 21;
-            this.checkBox2.Text = "UnsuccessfullApplication";
+            this.checkBox2.Text = "Unsuccessful Application";
             this.checkBox2.UseVisualStyleBackColor = true;
             this.checkBox2.CheckedChanged += new System.EventHandler(this.checkBox2_CheckedChanged);
             // 
@@ -150,23 +142,53 @@
             this.checkBox1.Location = new System.Drawing.Point(43, 377);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(166, 21);
+            this.checkBox1.Size = new System.Drawing.Size(167, 21);
             this.checkBox1.TabIndex = 20;
-            this.checkBox1.Text = "SuccessfullApplication";
+            this.checkBox1.Text = "Successful Application";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
+            // FeedbackTopic
+            // 
+            this.FeedbackTopic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.FeedbackTopic.FormattingEnabled = true;
+            this.FeedbackTopic.Items.AddRange(new object[] {
+            "Successful CV",
+            "Unsuccessful CV",
+            "Tell us more about yourself",
+            "Successful Technical Examination",
+            "Unsuccessful Technical Examination",
+            "Interview Invitation",
+            "Right fit for the applied role",
+            "The applied role did not match your skills"});
+            this.FeedbackTopic.Location = new System.Drawing.Point(261, 102);
+            this.FeedbackTopic.Name = "FeedbackTopic";
+            this.FeedbackTopic.Size = new System.Drawing.Size(497, 24);
+            this.FeedbackTopic.TabIndex = 24;
+            this.FeedbackTopic.SelectedIndexChanged += new System.EventHandler(this.FeedbackTopic_SelectedIndexChanged_1);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(258, 82);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(113, 17);
+            this.label2.TabIndex = 25;
+            this.label2.Text = "Feedback Topic:";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // FeedbackForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(976, 539);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.FeedbackTopic);
             this.Controls.Add(this.RecipientOfFeedback);
             this.Controls.Add(this.Interviewer);
             this.Controls.Add(this.Templates);
             this.Controls.Add(this.SendFeedback);
             this.Controls.Add(this.ShortcutCheckbox);
-            this.Controls.Add(this.FeedbackTopic);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.FeedbackText);
             this.Controls.Add(this.checkBox2);
@@ -189,12 +211,13 @@
         private System.Windows.Forms.Button SendFeedback;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.CheckedListBox ShortcutCheckbox;
-        private System.Windows.Forms.ListBox FeedbackTopic;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox FeedbackText;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.ComboBox FeedbackTopic;
+        private System.Windows.Forms.Label label2;
     }
 }
 
