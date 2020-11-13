@@ -14,10 +14,28 @@ namespace Happy_Tech_UI
 {
     public partial class FeedbackForm : Form
     {
+        class TextSuggestion
+        {
+            public string shortCutDescription { get; set; }
+            public string shortCutText { get; set; }
+
+        }
 
         public FeedbackForm()
         {
             InitializeComponent();
+            List<TextSuggestion> ft = new List<TextSuggestion>();
+            ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on CV-Match", shortCutText = "Congratulations! According to your CV, you seem to be on your track to being the right match for this position" });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on Examination", shortCutText = "Congratulations, You have passed the technical requirements!" });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on Interview Invitation", shortCutText = "Congratulations, You have reached the next stage of your application and are being officially invited for an interview!" });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on Acceptance", shortCutText= "Congratulations, You have been accepted for your applied position!" });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for CV-Match", shortCutText = "I regret to inform you that your CV did not match what we were looking for." });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for Examination", shortCutText = "I regret to inform you that your technical skill-base is not what we were looking for " });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for Interview Invitation", shortCutText = "I regret to inform you that you not progress to the next stage of the application process." });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for Rejection", shortCutText = "I regret to inform you that your applied position was not the right match for you" });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Thanking for their interest", shortCutText = "We appreciate your interest in our company and wish you success in your search!" });
+            suggestedText.DataSource = ft;
+            suggestedText.DisplayMember = "shortCutDescription";
         }
 
         private void EntrName_TextChanged(object sender, EventArgs e)
@@ -89,11 +107,28 @@ namespace Happy_Tech_UI
 
         private void FeedbackTopic_SelectedIndexChanged_1(object sender, EventArgs e)
         {
-
+           
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void ShortcutCheckbox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void suggestedText_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TextSuggestion ft1 = suggestedText.SelectedItem as TextSuggestion;
+            FeedbackText.Text = ft1.shortCutText;
 
         }
     }

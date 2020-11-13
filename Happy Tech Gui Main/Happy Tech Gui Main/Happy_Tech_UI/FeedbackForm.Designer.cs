@@ -34,7 +34,6 @@
             this.Templates = new System.Windows.Forms.ListBox();
             this.SendFeedback = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
-            this.ShortcutCheckbox = new System.Windows.Forms.CheckedListBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.label1 = new System.Windows.Forms.Label();
             this.FeedbackText = new System.Windows.Forms.TextBox();
@@ -42,6 +41,8 @@
             this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.FeedbackTopic = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
+            this.suggestedText = new System.Windows.Forms.ComboBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // RecipientOfFeedback
@@ -85,15 +86,6 @@
             this.SendFeedback.UseVisualStyleBackColor = true;
             this.SendFeedback.Click += new System.EventHandler(this.SendFeedback_Click);
             // 
-            // ShortcutCheckbox
-            // 
-            this.ShortcutCheckbox.FormattingEnabled = true;
-            this.ShortcutCheckbox.Location = new System.Drawing.Point(777, 102);
-            this.ShortcutCheckbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.ShortcutCheckbox.Name = "ShortcutCheckbox";
-            this.ShortcutCheckbox.Size = new System.Drawing.Size(159, 89);
-            this.ShortcutCheckbox.TabIndex = 19;
-            // 
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
@@ -118,7 +110,7 @@
             this.FeedbackText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FeedbackText.Multiline = true;
             this.FeedbackText.Name = "FeedbackText";
-            this.FeedbackText.Size = new System.Drawing.Size(497, 273);
+            this.FeedbackText.Size = new System.Drawing.Size(475, 273);
             this.FeedbackText.TabIndex = 22;
             this.FeedbackText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
@@ -161,34 +153,55 @@
             "Interview Invitation",
             "Right fit for the applied role",
             "The applied role did not match your skills"});
-            this.FeedbackTopic.Location = new System.Drawing.Point(261, 102);
+            this.FeedbackTopic.Location = new System.Drawing.Point(261, 123);
             this.FeedbackTopic.Name = "FeedbackTopic";
-            this.FeedbackTopic.Size = new System.Drawing.Size(497, 24);
+            this.FeedbackTopic.Size = new System.Drawing.Size(475, 24);
             this.FeedbackTopic.TabIndex = 24;
             this.FeedbackTopic.SelectedIndexChanged += new System.EventHandler(this.FeedbackTopic_SelectedIndexChanged_1);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(258, 82);
+            this.label2.Location = new System.Drawing.Point(258, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 17);
             this.label2.TabIndex = 25;
             this.label2.Text = "Feedback Topic:";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
+            // suggestedText
+            // 
+            this.suggestedText.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.suggestedText.FormattingEnabled = true;
+            this.suggestedText.Location = new System.Drawing.Point(745, 207);
+            this.suggestedText.Name = "suggestedText";
+            this.suggestedText.Size = new System.Drawing.Size(219, 24);
+            this.suggestedText.TabIndex = 26;
+            this.suggestedText.SelectedIndexChanged += new System.EventHandler(this.suggestedText_SelectedIndexChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(742, 187);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(150, 17);
+            this.label3.TabIndex = 27;
+            this.label3.Text = "Insert Suggested Text:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
             // FeedbackForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(976, 539);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.suggestedText);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.FeedbackTopic);
             this.Controls.Add(this.RecipientOfFeedback);
             this.Controls.Add(this.Interviewer);
             this.Controls.Add(this.Templates);
             this.Controls.Add(this.SendFeedback);
-            this.Controls.Add(this.ShortcutCheckbox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.FeedbackText);
             this.Controls.Add(this.checkBox2);
@@ -210,7 +223,6 @@
         private System.Windows.Forms.ListBox Templates;
         private System.Windows.Forms.Button SendFeedback;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
-        private System.Windows.Forms.CheckedListBox ShortcutCheckbox;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox FeedbackText;
@@ -218,6 +230,8 @@
         private System.Windows.Forms.CheckBox checkBox1;
         private System.Windows.Forms.ComboBox FeedbackTopic;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.ComboBox suggestedText;
+        private System.Windows.Forms.Label label3;
     }
 }
 
