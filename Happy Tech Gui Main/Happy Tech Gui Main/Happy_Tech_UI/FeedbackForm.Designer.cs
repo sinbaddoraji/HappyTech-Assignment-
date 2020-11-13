@@ -30,12 +30,8 @@
         {
             this.components = new System.ComponentModel.Container();
             this.RecipientOfFeedback = new System.Windows.Forms.TextBox();
-<<<<<<< HEAD
-            this.EntrName = new System.Windows.Forms.TextBox();
-=======
             this.Interviewer = new System.Windows.Forms.TextBox();
             this.Templates = new System.Windows.Forms.ListBox();
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             this.SendFeedback = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -43,16 +39,10 @@
             this.FeedbackText = new System.Windows.Forms.TextBox();
             this.checkBox2 = new System.Windows.Forms.CheckBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-<<<<<<< HEAD
-            this.backgroundWorker2 = new System.ComponentModel.BackgroundWorker();
-            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
-            this.label2 = new System.Windows.Forms.Label();
-=======
             this.FeedbackTopic = new System.Windows.Forms.ComboBox();
             this.label2 = new System.Windows.Forms.Label();
             this.suggestedText = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             this.SuspendLayout();
             // 
             // RecipientOfFeedback
@@ -74,8 +64,6 @@
             this.Interviewer.Text = "Interviewer";
             this.Interviewer.TextChanged += new System.EventHandler(this.EntrName_TextChanged);
             // 
-<<<<<<< HEAD
-=======
             // Templates
             // 
             this.Templates.FormattingEnabled = true;
@@ -87,7 +75,6 @@
             this.Templates.TabIndex = 15;
             this.Templates.SelectedIndexChanged += new System.EventHandler(this.Templates_SelectedIndexChanged);
             // 
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             // SendFeedback
             // 
             this.SendFeedback.Location = new System.Drawing.Point(437, 474);
@@ -119,15 +106,6 @@
             // 
             // FeedbackText
             // 
-<<<<<<< HEAD
-            this.textBox1.Location = new System.Drawing.Point(182, 82);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(374, 279);
-            this.textBox1.TabIndex = 22;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-=======
             this.FeedbackText.Location = new System.Drawing.Point(261, 152);
             this.FeedbackText.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.FeedbackText.Multiline = true;
@@ -135,19 +113,13 @@
             this.FeedbackText.Size = new System.Drawing.Size(475, 273);
             this.FeedbackText.TabIndex = 22;
             this.FeedbackText.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             // 
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-<<<<<<< HEAD
-            this.checkBox2.Location = new System.Drawing.Point(32, 240);
-            this.checkBox2.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.checkBox2.Location = new System.Drawing.Point(43, 404);
             this.checkBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(183, 21);
             this.checkBox2.TabIndex = 21;
@@ -159,13 +131,8 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-<<<<<<< HEAD
-            this.checkBox1.Location = new System.Drawing.Point(32, 219);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
-=======
             this.checkBox1.Location = new System.Drawing.Point(43, 377);
             this.checkBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(167, 21);
             this.checkBox1.TabIndex = 20;
@@ -173,16 +140,6 @@
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
             // 
-<<<<<<< HEAD
-            // checkedListBox1
-            // 
-            this.checkedListBox1.FormattingEnabled = true;
-            this.checkedListBox1.Location = new System.Drawing.Point(32, 282);
-            this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(120, 79);
-            this.checkedListBox1.TabIndex = 24;
-            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
-=======
             // FeedbackTopic
             // 
             this.FeedbackTopic.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -201,20 +158,10 @@
             this.FeedbackTopic.Size = new System.Drawing.Size(475, 24);
             this.FeedbackTopic.TabIndex = 24;
             this.FeedbackTopic.SelectedIndexChanged += new System.EventHandler(this.FeedbackTopic_SelectedIndexChanged_1);
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-<<<<<<< HEAD
-            this.label2.Location = new System.Drawing.Point(29, 266);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 13);
-            this.label2.TabIndex = 25;
-            this.label2.Text = "Staff Template Selection";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-=======
             this.label2.Location = new System.Drawing.Point(258, 102);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(113, 17);
@@ -242,18 +189,10 @@
             this.label3.Text = "Insert Suggested Text:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             // FeedbackForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-<<<<<<< HEAD
-            this.ClientSize = new System.Drawing.Size(732, 438);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.checkedListBox1);
-            this.Controls.Add(this.RecipientOfFeedback);
-            this.Controls.Add(this.EntrName);
-=======
             this.ClientSize = new System.Drawing.Size(976, 539);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.suggestedText);
@@ -262,7 +201,6 @@
             this.Controls.Add(this.RecipientOfFeedback);
             this.Controls.Add(this.Interviewer);
             this.Controls.Add(this.Templates);
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
             this.Controls.Add(this.SendFeedback);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.FeedbackText);
@@ -281,12 +219,8 @@
         #endregion
 
         private System.Windows.Forms.TextBox RecipientOfFeedback;
-<<<<<<< HEAD
-        private System.Windows.Forms.TextBox EntrName;
-=======
         private System.Windows.Forms.TextBox Interviewer;
         private System.Windows.Forms.ListBox Templates;
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
         private System.Windows.Forms.Button SendFeedback;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
@@ -294,16 +228,10 @@
         private System.Windows.Forms.TextBox FeedbackText;
         private System.Windows.Forms.CheckBox checkBox2;
         private System.Windows.Forms.CheckBox checkBox1;
-<<<<<<< HEAD
-        private System.ComponentModel.BackgroundWorker backgroundWorker2;
-        private System.Windows.Forms.CheckedListBox checkedListBox1;
-        private System.Windows.Forms.Label label2;
-=======
         private System.Windows.Forms.ComboBox FeedbackTopic;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox suggestedText;
         private System.Windows.Forms.Label label3;
->>>>>>> f05e507c9a3c47791186243b83bc2f84b9fd49db
     }
 }
 
