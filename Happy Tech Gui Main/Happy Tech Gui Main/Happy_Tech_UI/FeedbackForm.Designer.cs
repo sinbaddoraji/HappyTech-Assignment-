@@ -31,7 +31,6 @@
             this.components = new System.ComponentModel.Container();
             this.RecipientOfFeedback = new System.Windows.Forms.TextBox();
             this.Interviewer = new System.Windows.Forms.TextBox();
-            this.Templates = new System.Windows.Forms.ListBox();
             this.SendFeedback = new System.Windows.Forms.Button();
             this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -43,12 +42,14 @@
             this.label2 = new System.Windows.Forms.Label();
             this.suggestedText = new System.Windows.Forms.ComboBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // RecipientOfFeedback
             // 
             this.RecipientOfFeedback.Location = new System.Drawing.Point(43, 132);
-            this.RecipientOfFeedback.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.RecipientOfFeedback.Margin = new System.Windows.Forms.Padding(4);
             this.RecipientOfFeedback.Name = "RecipientOfFeedback";
             this.RecipientOfFeedback.Size = new System.Drawing.Size(159, 22);
             this.RecipientOfFeedback.TabIndex = 17;
@@ -57,28 +58,17 @@
             // Interviewer
             // 
             this.Interviewer.Location = new System.Drawing.Point(43, 102);
-            this.Interviewer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Interviewer.Margin = new System.Windows.Forms.Padding(4);
             this.Interviewer.Name = "Interviewer";
             this.Interviewer.Size = new System.Drawing.Size(159, 22);
             this.Interviewer.TabIndex = 16;
             this.Interviewer.Text = "Interviewer";
             this.Interviewer.TextChanged += new System.EventHandler(this.EntrName_TextChanged);
             // 
-            // Templates
-            // 
-            this.Templates.FormattingEnabled = true;
-            this.Templates.ItemHeight = 16;
-            this.Templates.Location = new System.Drawing.Point(43, 216);
-            this.Templates.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Templates.Name = "Templates";
-            this.Templates.Size = new System.Drawing.Size(159, 100);
-            this.Templates.TabIndex = 15;
-            this.Templates.SelectedIndexChanged += new System.EventHandler(this.Templates_SelectedIndexChanged);
-            // 
             // SendFeedback
             // 
             this.SendFeedback.Location = new System.Drawing.Point(437, 474);
-            this.SendFeedback.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SendFeedback.Margin = new System.Windows.Forms.Padding(4);
             this.SendFeedback.Name = "SendFeedback";
             this.SendFeedback.Size = new System.Drawing.Size(100, 28);
             this.SendFeedback.TabIndex = 14;
@@ -189,18 +179,38 @@
             this.label3.Text = "Insert Suggested Text:";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // checkedListBox1
+            // 
+            this.checkedListBox1.FormattingEnabled = true;
+            this.checkedListBox1.Location = new System.Drawing.Point(43, 239);
+            this.checkedListBox1.Name = "checkedListBox1";
+            this.checkedListBox1.Size = new System.Drawing.Size(159, 89);
+            this.checkedListBox1.TabIndex = 28;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(40, 219);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(162, 17);
+            this.label4.TabIndex = 29;
+            this.label4.Text = "Staff Template Selection";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
+            // 
             // FeedbackForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(976, 539);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.suggestedText);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.FeedbackTopic);
             this.Controls.Add(this.RecipientOfFeedback);
             this.Controls.Add(this.Interviewer);
-            this.Controls.Add(this.Templates);
             this.Controls.Add(this.SendFeedback);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.FeedbackText);
@@ -220,7 +230,6 @@
 
         private System.Windows.Forms.TextBox RecipientOfFeedback;
         private System.Windows.Forms.TextBox Interviewer;
-        private System.Windows.Forms.ListBox Templates;
         private System.Windows.Forms.Button SendFeedback;
         private System.ComponentModel.BackgroundWorker backgroundWorker1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
@@ -232,6 +241,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox suggestedText;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label4;
     }
 }
 

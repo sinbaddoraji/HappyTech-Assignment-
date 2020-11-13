@@ -69,12 +69,13 @@ namespace Happy_Tech_UI
 
         private void Templates_SelectedIndexChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void FeedbackForm_Load(object sender, EventArgs e)
         {
-
+            string[] Staff = new[] { "Richard", "Monica", "Sam" };
+            checkedListBox1.Items.AddRange(Staff);
         }
 
         private void SendFeedback_Click(object sender, EventArgs e)
@@ -130,6 +131,16 @@ namespace Happy_Tech_UI
             TextSuggestion ft1 = suggestedText.SelectedItem as TextSuggestion;
             FeedbackText.Text = ft1.shortCutText;
 
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show(" Staff template selected, applicable boxes have been automatically filled in for you ");
         }
     }
 }
