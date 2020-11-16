@@ -74,7 +74,7 @@ namespace Happy_Tech_UI
 
         private void FeedbackForm_Load(object sender, EventArgs e)
         {
-            string[] Staff = new[] { "Richard", "Monica", "Sam" };
+            string[] Staff = new[] { "Software Engineer", "Programmer", "Designer" };
             checkedListBox1.Items.AddRange(Staff);
         }
 
@@ -140,7 +140,7 @@ namespace Happy_Tech_UI
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(" Staff template selected, applicable boxes have been automatically filled in for you ");
+            MessageBox.Show(" Template Filled in  ");
         }
     }
 }
