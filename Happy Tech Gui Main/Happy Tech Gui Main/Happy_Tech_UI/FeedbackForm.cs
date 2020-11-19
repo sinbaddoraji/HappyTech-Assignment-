@@ -18,25 +18,43 @@ namespace Happy_Tech_UI
         {
             public string shortCutDescription { get; set; }
             public string shortCutText { get; set; }
-
+            
+        }
+        
+        class Template
+        {
+            public string apptempdescription { get; set; }
+            public string apptemptext { get; set; }
         }
 
         public FeedbackForm()
         {
             InitializeComponent();
             List<TextSuggestion> ft = new List<TextSuggestion>();
+            List<Template> at = new List<Template>();
             ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on CV-Match", shortCutText = "Congratulations! According to your CV, you seem to be on your track to being the right match for this position" });
             ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on Examination", shortCutText = "Congratulations, You have passed the technical requirements!" });
             ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on Interview Invitation", shortCutText = "Congratulations, You have reached the next stage of your application and are being officially invited for an interview!" });
-            ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on Acceptance", shortCutText= "Congratulations, You have been accepted for your applied position!" });
+            ft.Add(new TextSuggestion() { shortCutDescription = "Greetings on Acceptance", shortCutText = "Congratulations, You have been accepted for your applied position!" });
             ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for CV-Match", shortCutText = "I regret to inform you that your CV did not match what we were looking for." });
             ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for Examination", shortCutText = "I regret to inform you that your technical skill-base is not what we were looking for " });
             ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for Interview Invitation", shortCutText = "I regret to inform you that you not progress to the next stage of the application process." });
             ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for Rejection", shortCutText = "I regret to inform you that your applied position was not the right match for you" });
             ft.Add(new TextSuggestion() { shortCutDescription = "Thanking for their interest", shortCutText = "We appreciate your interest in our company and wish you success in your search!" });
+            at.Add(new Template() { apptempdescription = "Programer", apptemptext = "We have reviewd your application for a programer, just so you are aware this role involves programming in c# and HTML so we want to ensure you are confident with those two at the minimum" });
+            at.Add(new Template() { apptempdescription = "Software Engineer", apptemptext = "We have review you application for a software engineer, we are looking for someone expierienced and confident in all the stages of software engineering development " });
+
             suggestedText.DataSource = ft;
             suggestedText.DisplayMember = "shortCutDescription";
+            
+            
+
+            comboBox1.DataSource = at;
+            comboBox1.DisplayMember = "Application";
+
+
         }
+        
 
         private void EntrName_TextChanged(object sender, EventArgs e)
         {
@@ -74,8 +92,7 @@ namespace Happy_Tech_UI
 
         private void FeedbackForm_Load(object sender, EventArgs e)
         {
-            string[] Staff = new[] { "Software Engineer", "Programmer", "Designer" };
-            checkedListBox1.Items.AddRange(Staff);
+           
         }
 
         private void SendFeedback_Click(object sender, EventArgs e)
@@ -140,7 +157,17 @@ namespace Happy_Tech_UI
 
         private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(" Template Filled in  ");
+
+          
+
+        }
+        
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Template at1 = comboBox1.SelectedItem as Template;
+            FeedbackText.Text = at1.apptemptext;
+
         }
     }
 }
