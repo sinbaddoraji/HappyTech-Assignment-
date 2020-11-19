@@ -41,8 +41,8 @@ namespace Happy_Tech_UI
             ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for Interview Invitation", shortCutText = "I regret to inform you that you not progress to the next stage of the application process." });
             ft.Add(new TextSuggestion() { shortCutDescription = "Apologies for Rejection", shortCutText = "I regret to inform you that your applied position was not the right match for you" });
             ft.Add(new TextSuggestion() { shortCutDescription = "Thanking for their interest", shortCutText = "We appreciate your interest in our company and wish you success in your search!" });
-            at.Add(new Template() { apptempdescription = "Programer", apptemptext = "We have reviewd your application for a programer, just so you are aware this role involves programming in c# and HTML so we want to ensure you are confident with those two at the minimum" });
-            at.Add(new Template() { apptempdescription = "Software Engineer", apptemptext = "We have review you application for a software engineer, we are looking for someone expierienced and confident in all the stages of software engineering development " });
+            at.Add(new Template() { apptempdescription = "Programmer", apptemptext = "We have reviewed your application for a programmer, just so you are aware this role involves programming in c# and HTML so we want to ensure you are confident with those two at the minimum" });
+            at.Add(new Template() { apptempdescription = "Software Engineer", apptemptext = "We have reviewed you application for a software engineer, we are looking for someone expierienced and confident in all the stages of software engineering development " });
 
             suggestedText.DataSource = ft;
             suggestedText.DisplayMember = "shortCutDescription";
@@ -50,7 +50,7 @@ namespace Happy_Tech_UI
             
 
             comboBox1.DataSource = at;
-            comboBox1.DisplayMember = "Application";
+            comboBox1.DisplayMember = "apptempdescription";
 
 
         }

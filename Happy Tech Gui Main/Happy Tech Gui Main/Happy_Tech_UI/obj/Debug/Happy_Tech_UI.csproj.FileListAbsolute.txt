@@ -41,3 +41,14 @@ C:\Users\Nikita Dalela\Desktop\FINAL FINAL\HappyTech-Assignment-\Happy Tech Gui 
 C:\Users\Nikita Dalela\Desktop\FINAL FINAL\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.csproj.CoreCompileInputs.cache
 C:\Users\Nikita Dalela\Desktop\FINAL FINAL\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.exe
 C:\Users\Nikita Dalela\Desktop\FINAL FINAL\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.pdb
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\bin\Debug\Happy_Tech_UI.exe.config
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\bin\Debug\Happy_Tech_UI.exe
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\bin\Debug\Happy_Tech_UI.pdb
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.csprojAssemblyReference.cache
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.FeedbackForm.resources
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.LogInForm.resources
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.Properties.Resources.resources
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.csproj.GenerateResource.cache
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.csproj.CoreCompileInputs.cache
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.exe
+C:\Users\Nikita Dalela\Desktop\19_11_2020\HappyTech-Assignment-\Happy Tech Gui Main\Happy Tech Gui Main\Happy_Tech_UI\obj\Debug\Happy_Tech_UI.pdb
