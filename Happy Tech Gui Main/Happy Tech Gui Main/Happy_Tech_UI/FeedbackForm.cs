@@ -146,7 +146,7 @@ namespace Happy_Tech_UI
         private void suggestedText_SelectedIndexChanged(object sender, EventArgs e)
         {
             TextSuggestion ft1 = suggestedText.SelectedItem as TextSuggestion;
-            FeedbackText.Text = ft1.shortCutText;
+            FeedbackText.Text += ft1.shortCutText;
 
         }
 
@@ -166,7 +166,8 @@ namespace Happy_Tech_UI
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             Template at1 = comboBox1.SelectedItem as Template;
-            FeedbackText.Text = at1.apptemptext;
+            FeedbackText.Text += at1.apptemptext;
+
 
         }
     }
